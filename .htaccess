@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^fastloan\.developsmamun\.com$
+RewriteRule ^/?$ "https\:\/\/fastloan\.developsmamun\.com\/" [R=301,L]
+
